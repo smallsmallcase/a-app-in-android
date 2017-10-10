@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main2Activity">
+
+
+    <Button
+        android:text="下载程控模板"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="26dp"
+        android:id="@+id/button_download" />
+
+    <Button
+        android:text="物种搜索"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_download"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/button_search" />
+
+    <Button
+        android:text="社交模块"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_search"
+        android:layout_alignLeft="@+id/button_search"
+        android:layout_alignStart="@+id/button_search"
+        android:layout_marginBottom="64dp"
+        android:id="@+id/button_communicate" />
+
+    <Button
+        android:text="植物托管"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_communicate"
+        android:layout_alignRight="@+id/button_download"
+        android:layout_alignEnd="@+id/button_download"
+        android:id="@+id/button_manage" />
+
+    <Button
+        android:text="社交模块2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_communicate"
+        android:layout_alignRight="@+id/button_communicate"
+        android:layout_alignEnd="@+id/button_communicate"
+        android:layout_marginBottom="45dp"
+        android:id="@+id/button_communicate2" />
+
+    <Button
+        android:text="WIFI开关"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_communicate2"
+        android:layout_alignLeft="@+id/button_manage"
+        android:layout_alignStart="@+id/button_manage"
+        android:id="@+id/button_wifi" />
+
+</RelativeLayout>
